@@ -169,6 +169,11 @@ p {
     line-height: 1.55;
 }
 
+.project-item p strong {
+    font-weight: 500;
+    color: var(--color-text-light);
+}
+
 /* Links */
 a {
     color: var(--color-link);
