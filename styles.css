@@ -7,14 +7,14 @@
 
 /* Typography and Colors */
 :root {
-    --color-text: #e0e0e0;
-    --color-text-light: #c4c4c4;
-    --color-bg: #14161a;
-    --color-meta: #8b949e;
-    --color-link: #e0e0e0;
-    --color-link-hover: #58a6ff;
-    --color-accent: #58a6ff;
-    --color-border: #2d3139;
+    --color-text: #1f1d1a;
+    --color-text-light: #45413a;
+    --color-bg: #faf8f3;
+    --color-meta: #8a8377;
+    --color-link: #1f1d1a;
+    --color-link-hover: #b6803a;
+    --color-accent: #b6803a;
+    --color-border: #e6e1d6;
     --max-width: 720px;
 }
 
@@ -317,7 +317,7 @@ footer {
 
 /* Selection */
 ::selection {
-    background-color: rgba(88, 166, 255, 0.3);
+    background-color: rgba(182, 128, 58, 0.18);
     color: var(--color-text);
 }
 
