@@ -58,6 +58,15 @@ header::after {
     opacity: 0.4;
 }
 
+.headshot {
+    display: block;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
 h1 {
     font-size: 2.2rem;
     font-weight: 600;
