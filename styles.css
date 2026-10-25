@@ -133,26 +133,6 @@ p {
     margin-bottom: 14px;
 }
 
-/* Research Areas */
-.research-areas {
-    display: grid;
-    gap: 10px;
-}
-
-.research-item {
-    padding: 0;
-}
-
-.research-item h3 {
-    margin-bottom: 2px;
-}
-
-.research-item p {
-    color: var(--color-meta);
-    line-height: 1.55;
-    margin-bottom: 0;
-}
-
 /* Experience Items */
 .experience-item {
     margin-bottom: 28px;
@@ -275,10 +255,6 @@ footer {
 
     .section {
         margin-bottom: 50px;
-    }
-
-    .research-areas {
-        gap: 10px;
     }
 
     .experience-item {
