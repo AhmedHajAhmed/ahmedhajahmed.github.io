@@ -7,15 +7,15 @@
 
 /* Typography and Colors */
 :root {
-    color-scheme: dark;
-    --color-text: #ece7dd;
-    --color-text-light: #cfc8bb;
-    --color-bg: #222222;
-    --color-meta: #958c7e;
-    --color-link: #ece7dd;
-    --color-link-hover: #a3a3a3;
-    --color-accent: #a3a3a3;
-    --color-border: #363636;
+    color-scheme: light;
+    --color-text: #1f1f1f;
+    --color-text-light: #3d3d3d;
+    --color-bg: #f7f7f7;
+    --color-meta: #6b6b6b;
+    --color-link: #1f1f1f;
+    --color-link-hover: #6b6b6b;
+    --color-accent: #6b6b6b;
+    --color-border: #e0e0e0;
     --max-width: 580px;
 }
 
@@ -180,12 +180,12 @@ a:hover {
 /* Main content links */
 .section a:not(.contact-links a) {
     text-decoration: underline;
-    text-decoration-color: rgba(255, 255, 255, 0.25);
+    text-decoration-color: rgba(0, 0, 0, 0.2);
     text-underline-offset: 3px;
 }
 
 .section a:not(.contact-links a):hover {
-    text-decoration-color: rgba(255, 255, 255, 0.55);
+    text-decoration-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
@@ -304,24 +304,12 @@ footer {
 
 /* Selection */
 ::selection {
-    background-color: rgba(255, 255, 255, 0.18);
+    background-color: rgba(0, 0, 0, 0.1);
     color: var(--color-text);
 }
 
 /* Print Styles */
 @media print {
-    /* Dark backgrounds don't print; switch back to dark-on-white */
-    :root {
-        color-scheme: light;
-        --color-text: #1f1d1a;
-        --color-text-light: #45413a;
-        --color-bg: #ffffff;
-        --color-meta: #8a8377;
-        --color-link: #1f1d1a;
-        --color-accent: #8a8a8a;
-        --color-border: #e6e1d6;
-    }
-
     .container {
         max-width: 100%;
         padding: 0;
